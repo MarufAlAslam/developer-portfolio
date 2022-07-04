@@ -1,0 +1,132 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    font-weight: 500;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.flex-container{
+    max-width: 85%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+h1{
+    font-size: 50px;
+    font-weight: 600;
+    margin: 0;
+}
+section{
+    padding: 50px 0;
+}
+.name{
+    color: blue;
+    font-weight: 900;
+}
+.btn{
+    background: linear-gradient(45deg, rgb(59, 59, 217), rgb(116, 103, 228));
+    padding: 10px 40px;
+    border-radius: 10px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+}
+.half{
+    width: 50%;
+    padding: 0 50px;
+}
+img{
+    max-width: 100%;
+}
+.third{
+    width: 33.33%;
+    padding: 0 50px;
+}
+.thumb {
+	width: 100px;
+}
+.card {
+	box-shadow: 0 0 5px rgba(0,0,0,0.3);
+	padding: 20px;
+	border-radius: 20px;
+}
+.b1{
+    border-left: 5px solid blue;
+}
+.b2{
+    border-left: 5px solid rgb(5, 129, 13);
+}
+.b3{
+    border-left: 5px solid rgb(153, 68, 8);
+}
+h3{
+    font-weight: 600;
+}
+.card{
+    height: 100%;
+}
+.copy{
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+}
+.copy p{
+    margin: 0;
+    font-size: 14px;
+}
+.half img{
+    width: 80%;
+}
+
+@media screen and (max-width: 992px){
+    .half{
+        width: 100%;
+    }
+    .flex-container{
+        flex-direction: column;
+    }
+    .half img{
+        display: block;
+        margin: auto;
+        width: 40%;
+    }
+    h1{
+        font-size: 30px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    .third{
+        width: 100%;
+        margin-top: 20px;
+    }
+    section {
+        padding: 20px 0;
+    }
+}
+@media screen and (max-width: 776px){
+    .flex-container {
+        max-width: 100%;
+    }
+    .half img {
+        display: block;
+        margin: auto;
+        width: 100%;
+        margin-top: 30px;
+    }
+    .third {
+        padding: 0 15px;
+    }
+    .half {
+        padding: 0 15px;
+    }
+    .copy p {
+        margin: 0;
+        font-size: 10px;
+    }
+}
