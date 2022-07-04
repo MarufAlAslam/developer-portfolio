@@ -82,6 +82,11 @@ h3{
 .half img{
     width: 80%;
 }
+section.topSection img {
+    display: block;
+    margin-left: auto;
+}
+
 
 @media screen and (max-width: 992px){
     .half{
